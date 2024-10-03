@@ -25,7 +25,7 @@ export default class Character implements Fighter {
     this._energy = { type_: this.archetype.energyType, amount: getRandomInt(1, 10) };
   }
 
-  public receiveDamage(attackPoints: number): number {
+  public receiveDamage(attackPoints: number) {
     const damage = attackPoints - this._defense;
     if (damage > 0) {
       this._lifePoints -= damage;
@@ -40,7 +40,7 @@ export default class Character implements Fighter {
     return this._lifePoints;
   }
 
-  public attack(enemy: SimpleFighter): void {
+  public attack(enemy: SimpleFighter) {
     enemy.receiveDamage(this._strength);
   }
 
@@ -56,36 +56,36 @@ export default class Character implements Fighter {
     this._energy.amount = 10;
   }
 
-  public special(enemy: Fighter): void {
+  public special(enemy: Fighter) {
     const specialDamage = this._strength * 2;
     enemy.receiveDamage(specialDamage);
   }
 
-  public get race(): Race {
+  public get race() {
     return this._race;
   }
 
-  public get archetype(): Archetype {
+  public get archetype() {
     return this._archetype;
   }
 
-  public get lifePoints(): number {
+  public get lifePoints() {
     return this._lifePoints;
   }
   
-  public get dexterity(): number {
+  public get dexterity() {
     return this._dexterity;
   }
 
-  public get strength(): number {
+  public get strength() {
     return this._strength;
   }
 
-  public get defense(): number {
+  public get defense() {
     return this._defense;
   }
 
-  public get energy(): Energy {
+  public get energy() {
     return { ...this._energy };
   }
 }
