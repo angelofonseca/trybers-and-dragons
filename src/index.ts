@@ -14,20 +14,12 @@ player1.levelUp();
 player1.levelUp();
 const monster1 = new Monster();
 const monster2 = new Dragon();
-// console.log(player1.strength);
 const pvp = new PVP(player2, player3);
 const pve = new PVE(player1, [monster1, monster2]);
 
 function runBattles(battles: Battle[]) {
-  battles.forEach((battle) => { 
-    console.log(player1.lifePoints);
-    console.log(monster1);
-    console.log(monster2);
-    battle.fight(); 
-  });
+  battles.forEach((battle) => battle.fight());
 }
-
-runBattles([pve, pvp]);
 
 export {
   player1,
