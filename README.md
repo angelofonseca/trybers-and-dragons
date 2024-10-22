@@ -1,10 +1,27 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Trybers and Dragons
+
+Pequeno projeto de um jogo RPG utilizando arquitetura SOLID e POO.
+
+## Técnologias usadas
+
+Back-end:
+> Desenvolvido usando: TypeScript, ES6
+
+## Clonando o projeto
+
+```bash
+git@github.com:angelofonseca/trybers-and-dragons.git
+```
+
+## Instalando Dependências
+
+```bash
+cd /trybers-and-dragons
+npm install
+``` 
+
+## Executando aplicação
+
+  ```
+    npm start
+  ```
