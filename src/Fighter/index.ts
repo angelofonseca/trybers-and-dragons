@@ -1,6 +1,6 @@
-import Fighter from './Fighter';
-import SimpleFighter from './SimpleFighter';
+import IFighter from './Fighter';
+import ISimpleFighter from './ISimpleFighter';
 
-export default Fighter;
+export default IFighter;
 
-export { SimpleFighter };
+export { ISimpleFighter };

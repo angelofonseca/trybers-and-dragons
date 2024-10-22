@@ -1,9 +1,9 @@
-import Energy from '../Energy';
-import SimpleFighter from './SimpleFighter';
+import IEnergy from '../IEnergy';
+import ISimpleFighter from './ISimpleFighter';
 
-export default interface Fighter extends SimpleFighter {
+export default interface IFighter extends ISimpleFighter {
   defense: number;
-  energy?: Energy;
-  special?: (enemy: Fighter) => void;
+  energy?: IEnergy;
   levelUp: () => void;
+  special?: (enemy: IFighter) => void;
 }
