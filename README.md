@@ -4,8 +4,7 @@ Pequeno projeto de um jogo RPG utilizando arquitetura SOLID e POO.
 
 ## Técnologias usadas
 
-Back-end:
-> Desenvolvido usando: TypeScript, ES6
+> Desenvolvido utilizando: TypeScript, ES6, POO
 
 ## Clonando o projeto
 
