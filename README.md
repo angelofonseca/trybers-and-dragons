@@ -1,4 +1,4 @@
-# Trybers and Dragons
+ # Trybers and Dragons
 
 Pequeno projeto de um jogo RPG utilizando arquitetura SOLID e POO.
 
@@ -16,7 +16,7 @@ git clone git@github.com:angelofonseca/trybers-and-dragons.git
 ## Instalando Dependências
 
 ```bash
-cd /trybers-and-dragons
+cd trybers-and-dragons
 npm install
 ``` 
 
