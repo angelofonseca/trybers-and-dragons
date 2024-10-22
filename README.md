@@ -10,7 +10,7 @@ Back-end:
 ## Clonando o projeto
 
 ```bash
-git@github.com:angelofonseca/trybers-and-dragons.git
+git clone git@github.com:angelofonseca/trybers-and-dragons.git
 ```
 
 ## Instalando Dependências
